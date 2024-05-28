@@ -78,5 +78,3 @@ deploy_test_stop:
   script:
     - docker rm --force tomcat
     - docker image rm --force connect-four
-  only:
-    - test
