@@ -1,6 +1,7 @@
 stages:
   - build
   - test
+  - package
 # Unbedingt eine Leerzeile lassen nach einem Command
 image: maven:3.9.6-amazoncorretto-21
 
@@ -36,3 +37,19 @@ test:
   cache:
     paths:
       - ".m2/repository"
+
+package:
+    stage: package
+    tags:
+        - docker
+    dependencies:
+        - build
+    script:
+        - mvn package
+    artifacts:
+        paths:
+        - "target/*.war"
+        expire_in: 2 days
+    cache:
+        paths:
+        - ".m2/repository"
