@@ -10,4 +10,5 @@ build:
     - docker
   script:
     - mvn compile
+
 # Unbedingt eine Leerzeile lassen
