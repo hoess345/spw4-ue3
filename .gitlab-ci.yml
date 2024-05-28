@@ -1,14 +1,20 @@
 stages:
   - build
   - test
-
+# Unbedingt eine Leerzeile lassen
 image: maven:3.9.6-amazoncorretto-21
-
+# Unbedingt eine Leerzeile lassen
 build:
   stage: build
   tags:
     - docker
   script:
     - mvn compile
-
+  artifacts:
+    paths:
+      - "target/*"
+    expire_in: 2 days
+  cache:
+    paths:
+      - ".m2/repository"
 # Unbedingt eine Leerzeile lassen
