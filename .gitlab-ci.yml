@@ -61,12 +61,17 @@ deploy_test:
         - shell
     dependencies:
         - package
-    when: manual
+#    when: manual
     script:
         - docker rm --force tomcat
         - docker image rm --force connect-four
         - docker build -t connect-four .
         - docker run --rm -d --name tomcat -p 8080:8080 connect-four
+    environment:
+      name: test
+      action: start
+      url: http://localhost:8080/ConnectFour
+      on_stop: deploy_test_stop
 
 deploy_test_stop:
   stage: deploy
@@ -78,3 +83,6 @@ deploy_test_stop:
   script:
     - docker rm --force tomcat
     - docker image rm --force connect-four
+  environment:
+    name: test
+    action: stop
