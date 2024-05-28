@@ -2,6 +2,7 @@ stages:
   - build
   - test
   - package
+  - deploy
 # Unbedingt eine Leerzeile lassen nach einem Command
 image: maven:3.9.6-amazoncorretto-21
 
@@ -53,3 +54,29 @@ package:
     cache:
         paths:
         - ".m2/repository"
+
+deploy_test:
+    stage: deploy
+    tags:
+        - shell
+    dependencies:
+        - package
+    when: manual
+    script:
+        - docker rm --force tomcat
+        - docker image rm --force connect-four
+        - docker build -t connect-four .
+        - docker run --rm -d --name tomcat -p 8080:8080 connect-four
+
+deploy_test_stop:
+  stage: deploy
+  tags:
+    - shell
+  dependencies:
+    - package
+  when: manual
+  script:
+    - docker rm --force tomcat
+    - docker image rm --force connect-four
+  only:
+    - test
