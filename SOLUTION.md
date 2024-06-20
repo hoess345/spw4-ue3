@@ -3,7 +3,7 @@ SPW4 - Exercise 3
 
 Name: Yannick Höß
 
-Effort in hours: 10
+Effort in hours: 3
 
 ## 1. Connect Four Web Application and CI/CD Pipeline
 
