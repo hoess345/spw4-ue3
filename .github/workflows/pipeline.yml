@@ -65,4 +65,4 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: Package-Output
-      - run: whoami && pwd && ls -la . && ls -la /usr/local/tomcat && cp -f target/ConnectFour.war /usr/local/tomcat/webapps
+      - run: cp -f ConnectFour.war /usr/local/tomcat/webapps
