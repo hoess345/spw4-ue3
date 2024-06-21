@@ -41,3 +41,6 @@ Danach habe ich ein neues Repo auf GitHub erstellt und mit folgenden Befehlen da
 `git push --all origin`  
 `git push --tags origin`  
 
+![GitHubPipeline.png](documentation/GitHubPipeline.png)
+
+![ConnectFourAfterGitHub.png](documentation/ConnectFourAfterGitHub.png)
