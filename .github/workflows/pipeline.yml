@@ -35,8 +35,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.artifact_name }}
-      - name: Test
-        run: mvn test
+      - run: mvn test
 
   package:
     needs: test
@@ -51,8 +50,7 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: maven
-      - name: Package
-        run: mvn package
+      - run: mvn package
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ env.artifact_name }}
