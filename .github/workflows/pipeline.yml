@@ -1,0 +1,85 @@
+on: [push]
+env:
+  artifact_name: "Output-Artifacts"
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup JDK 21
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+      - name: Build
+      - run: mvn compile
+      - name: Upload Compiled-Output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.artifact_name }}
+          path: target
+          retention-days: 1
+
+  test:
+    needs: build
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Compiled-Output
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.artifact_name }}
+      - name: Setup JKD 21
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+      - name: Upload Test-Artifacts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.artifact_name }}
+      - name: Test
+        run: mvn test
+
+  package:
+    needs: test
+    name: Package
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download Compiled-Output
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.artifact_name }}
+      - name: Setup JDK 21
+      - uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          cache: maven
+      - name: Package
+        run: mvn package
+      - name: Upload WAR-Artifacts
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.artifact_name }}
+          path: target/*.war
+          retention-days: 2
+
+  deploy_test:
+    needs: package
+    name: Deploy-Test
+    runs-on: ubuntu-latest
+    environment:
+      name: test
+      url: http://localhost:8080/ConnectFour
+    steps:
+      - name: Download WAR-Artifacts
+      - uses: actions/download-artifact@v4
+        with:
+          name: ${{ env.artifact_name }}
+      - name: mvn Deploy-Test
+      - run: cp ConnectFour.war /usr/local/tomcat/webapps
