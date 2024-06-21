@@ -1,6 +1,4 @@
 on: [push]
-env:
-  artifact_name: "Output-Artifacts"
 jobs:
   build:
     name: Build
@@ -15,7 +13,7 @@ jobs:
       - run: mvn compile
       - uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.artifact_name }}
+          name: Build-Output
           path: target
           retention-days: 1
 
@@ -26,7 +24,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: ${{ env.artifact_name }}
+          name: Build-Output
       - uses: actions/setup-java@v4
         with:
           java-version: '21'
@@ -41,7 +39,7 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: ${{ env.artifact_name }}
+          name: Build-Output
       - uses: actions/setup-java@v4
         with:
           java-version: '21'
@@ -50,7 +48,7 @@ jobs:
       - run: mvn package
       - uses: actions/upload-artifact@v4
         with:
-          name: ${{ env.artifact_name }}
+          name: Package-Output
           path: target/*.war
           retention-days: 2
 
@@ -64,5 +62,5 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: ${{ env.artifact_name }}
+          name: Package-Output
       - run: cp ConnectFour.war /usr/local/tomcat/webapps
