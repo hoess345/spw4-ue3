@@ -1,7 +1,6 @@
 on: [push]
 env:
   artifact_name: "Output-Artifacts"
-
 jobs:
   build:
     name: Build
