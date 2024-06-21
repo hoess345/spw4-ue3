@@ -41,6 +41,21 @@ Danach habe ich ein neues Repo auf GitHub erstellt und mit folgenden Befehlen da
 `git push --all origin`  
 `git push --tags origin`  
 
+Die Pipeline wird immer beim Pushen auf GitHub gestartet.
+0. Jeder Job läuft mit temurin-21.
+1. Build: Der Build-Job läuft auf einem Ubuntu-Image, wodurch es wesentlich schneller ist, als es auf meiner 
+   Maschine wäre. Wenn erfolgreich compiliert wurde, wird der Output in ein Artefakt gespeichert.
+2. Test: Der Test-Job läuft auf einem Ubuntu-Image und führt die Tests aus. Bevor die Tests durchgeführt werden, 
+   wird das Artefakt aus dem Build-Job heruntergeladen.
+3. Package: Der Package-Job läuft auf einem Ubuntu-Image und führt `mvn package` aus. Auch dieser Job verwendet das 
+   Artefakt aus dem Build-Job. Das Ergebnis wird wieder in ein Artefakt gespeichert, welches vom deploy verwendet wird.
+4. Deploy: Der "Deploy-Job" läuft im Docker-Image, welches wir zu Begin erstellt haben. Dieser Job stellt die Url 
+   für die ConnectFour Web Application bereit. Dieser Job führt keinen Maven-Befehl mehr aus, sondern kopiert das 
+   Artefakt vom Package-Job in das WebApps Verzeichnis des Tomcat-Servers.
+
+--> Damit ist die Pipeline erfolgreich durchgelaufen und die Anwendung unter der angegebenen URL verfügbar.
+
+Am Ende schauen das Ergebnis (Pipeline und Pfad) so aus:  
 ![GitHubPipeline.png](documentation/GitHubPipeline.png)
 
 ![ConnectFourAfterGitHub.png](documentation/ConnectFourAfterGitHub.png)
