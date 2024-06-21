@@ -1,0 +1,222 @@
+[2024-06-21 15:40:39Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-06-21 15:40:39Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:39Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:39Z INFO HostContext] Well known config file 'Credentials': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials'
+[2024-06-21 15:40:39Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:39Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:39Z INFO HostContext] Well known config file 'Runner': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.runner'
+[2024-06-21 15:40:39Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2024-06-21 15:40:39Z INFO Listener] RuntimeInformation: Linux 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024.
+[2024-06-21 15:40:39Z INFO Listener] Version: 2.317.0
+[2024-06-21 15:40:39Z INFO Listener] Commit: 6dc005ee3690a0303e0d7269b6f60295d22dcfad
+[2024-06-21 15:40:39Z INFO Listener] Culture: en-US
+[2024-06-21 15:40:39Z INFO Listener] UI Culture: en-US
+[2024-06-21 15:40:39Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:39Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:39Z INFO Listener] Validating directory permissions for: '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:39Z INFO CommandLineParser] Parse
+[2024-06-21 15:40:39Z INFO CommandLineParser] Parsing 5 args
+[2024-06-21 15:40:39Z INFO CommandLineParser] parsing argument
+[2024-06-21 15:40:39Z INFO CommandLineParser] HasArgs: False
+[2024-06-21 15:40:39Z INFO CommandLineParser] Adding Command: configure
+[2024-06-21 15:40:39Z INFO CommandLineParser] parsing argument
+[2024-06-21 15:40:39Z INFO CommandLineParser] HasArgs: True
+[2024-06-21 15:40:39Z INFO CommandLineParser] arg: url
+[2024-06-21 15:40:39Z INFO CommandLineParser] parsing argument
+[2024-06-21 15:40:39Z INFO CommandLineParser] HasArgs: True
+[2024-06-21 15:40:39Z INFO CommandLineParser] Adding option 'url': 'https://github.com/hoess345/spw4-ue3'
+[2024-06-21 15:40:39Z INFO CommandLineParser] parsing argument
+[2024-06-21 15:40:39Z INFO CommandLineParser] HasArgs: True
+[2024-06-21 15:40:39Z INFO CommandLineParser] arg: token
+[2024-06-21 15:40:39Z INFO CommandLineParser] parsing argument
+[2024-06-21 15:40:39Z INFO CommandLineParser] HasArgs: True
+[2024-06-21 15:40:39Z INFO CommandLineParser] Adding option 'token': '***'
+[2024-06-21 15:40:39Z INFO Listener] Arguments parsed
+[2024-06-21 15:40:40Z INFO Runner] ExecuteCommand
+[2024-06-21 15:40:40Z INFO ConfigurationStore] currentAssemblyLocation: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin/Runner.Listener.dll
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] binPath: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] RootFolder: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:40Z INFO HostContext] Well known config file 'Runner': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.runner'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] ConfigFilePath: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.runner
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:40Z INFO HostContext] Well known config file 'Credentials': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] CredFilePath: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:40Z INFO HostContext] Well known config file 'MigratedCredentials': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_migrated'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] MigratedCredFilePath: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_migrated
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:40Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:40Z INFO HostContext] Well known config file 'Service': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.service'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] ServiceConfigFilePath: /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.service
+[2024-06-21 15:40:40Z INFO CommandSettings] Flag 'help': 'False'
+[2024-06-21 15:40:40Z INFO CommandSettings] Flag 'version': 'False'
+[2024-06-21 15:40:40Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-06-21 15:40:40Z INFO CommandSettings] Flag 'check': 'False'
+[2024-06-21 15:40:40Z INFO CommandSettings] Command 'configure': 'True'
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |        ____ _ _   _   _       _          _        _   _                      |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |       / ___(_) |_| | | |_   _| |__      / \   ___| |_(_) ___  _ __  ___      |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |      | |  _| | __| |_| | | | | '_ \    / _ \ / __| __| |/ _ \| '_ \/ __|     |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |      | |_| | | |_|  _  | |_| | |_) |  / ___ \ (__| |_| | (_) | | | \__ \     |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |       \____|_|\__|_| |_|\__,_|_.__/  /_/   \_\___|\__|_|\___/|_| |_|___/     |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE: |                       
+[2024-06-21 15:40:40Z INFO Terminal] WRITE: Self-hosted runner registration
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE:                         |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: |                                                                              |
+[2024-06-21 15:40:40Z INFO Terminal] WRITE LINE: --------------------------------------------------------------------------------
+[2024-06-21 15:40:40Z INFO ConfigurationManager] ConfigureAsync
+[2024-06-21 15:40:40Z INFO CommandSettings] Flag 'generateServiceConfig': 'False'
+[2024-06-21 15:40:40Z INFO ConfigurationStore] IsConfigured()
+[2024-06-21 15:40:40Z INFO ConfigurationStore] IsConfigured: False
+[2024-06-21 15:40:40Z INFO ConfigurationManager] Is configured: False
+[2024-06-21 15:40:40Z INFO CommandSettings] Arg 'url': 'https://github.com/hoess345/spw4-ue3'
+[2024-06-21 15:40:40Z INFO CommandSettings] Remove url from Arg dictionary.
+[2024-06-21 15:40:40Z INFO CommandSettings] Arg 'token': '***'
+[2024-06-21 15:40:40Z INFO CommandSettings] Remove token from Arg dictionary.
+[2024-06-21 15:40:43Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (CE1E:309F4D:5ACFB7C:5B8F67E:66759EF9)
+[2024-06-21 15:40:43Z INFO ConfigurationManager] Using V2 flow: False
+[2024-06-21 15:40:43Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2024-06-21 15:40:43Z INFO RunnerServer] EstablishVssConnection
+[2024-06-21 15:40:43Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-06-21 15:40:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-21 15:40:43Z INFO RunnerServer] EstablishVssConnection
+[2024-06-21 15:40:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-21 15:40:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-21 15:40:43Z INFO RunnerServer] EstablishVssConnection
+[2024-06-21 15:40:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-21 15:40:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-21 15:40:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-21 15:40:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-21 15:40:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-21 15:40:45Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:40:45Z INFO ConfigurationManager] Test Connection complete.
+[2024-06-21 15:40:45Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:45Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:45Z INFO HostContext] Well known config file 'RSACredentials': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams'
+[2024-06-21 15:40:45Z INFO RSAFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-06-21 15:40:46Z INFO RSAFileKeyManager] Successfully saved RSA key parameters to file /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams
+[2024-06-21 15:40:46Z INFO RSAFileKeyManager] Which2: 'chmod'
+[2024-06-21 15:40:46Z INFO RSAFileKeyManager] Location: '/usr/bin/chmod'
+[2024-06-21 15:40:46Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:40:46Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper] Starting process:
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Arguments: '600 /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Working directory: '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 1975.
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper] Process started with process id 1975, waiting for process exit.
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-06-21 15:40:46Z INFO ProcessInvokerWrapper] Finished process 1975 with exit code 0, and elapsed time 00:00:00.0649182.
+[2024-06-21 15:40:46Z INFO RSAFileKeyManager] Successfully set permissions for RSA key parameters file /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams
+[2024-06-21 15:40:46Z INFO CommandSettings] Arg 'runnergroup': ''
+[2024-06-21 15:40:46Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-21 15:40:46Z INFO PromptManager] ReadValue
+[2024-06-21 15:40:46Z INFO Terminal] WRITE: Enter the name of the runner group to add this runner to: 
+[2024-06-21 15:40:46Z INFO Terminal] WRITE: [press Enter for Default] 
+[2024-06-21 15:40:46Z INFO Terminal] READ LINE
+[2024-06-21 15:40:52Z INFO Terminal] Read value: ''
+[2024-06-21 15:40:52Z INFO PromptManager] Falling back to the default: 'Default'
+[2024-06-21 15:40:52Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:40:52Z INFO ConfigurationManager] Found a self-hosted runner group with id 1 and name Default
+[2024-06-21 15:40:52Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-06-21 15:40:52Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-06-21 15:40:52Z INFO CommandSettings] Arg 'name': ''
+[2024-06-21 15:40:52Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-21 15:40:52Z INFO PromptManager] ReadValue
+[2024-06-21 15:40:52Z INFO Terminal] WRITE: Enter the name of runner: 
+[2024-06-21 15:40:52Z INFO Terminal] WRITE: [press Enter for Yannick] 
+[2024-06-21 15:40:52Z INFO Terminal] READ LINE
+[2024-06-21 15:40:54Z INFO Terminal] Read value: ''
+[2024-06-21 15:40:54Z INFO PromptManager] Falling back to the default: 'Yannick'
+[2024-06-21 15:40:54Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:40:54Z INFO CommandSettings] Arg 'labels': ''
+[2024-06-21 15:40:54Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-21 15:40:54Z INFO PromptManager] ReadValue
+[2024-06-21 15:40:54Z INFO Terminal] WRITE: This runner will have the following labels: 'self-hosted', 'Linux', 'X64' 
+Enter any additional labels (ex. label-1,label-2): 
+[2024-06-21 15:40:54Z INFO Terminal] WRITE: [press Enter to skip] 
+[2024-06-21 15:40:54Z INFO Terminal] READ LINE
+[2024-06-21 15:41:00Z INFO Terminal] Read value: ''
+[2024-06-21 15:41:00Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:41:00Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-06-21 15:41:00Z INFO CommandSettings] Flag 'no-default-labels': 'False'
+[2024-06-21 15:41:17Z INFO CommandSettings] Flag 'disableupdate': 'False'
+[2024-06-21 15:41:17Z INFO CommandSettings] Flag 'ephemeral': 'False'
+[2024-06-21 15:41:17Z INFO ConfigurationStore] Saving OAuth credential @ /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials
+[2024-06-21 15:41:17Z INFO ConfigurationStore] Credentials Saved.
+[2024-06-21 15:41:17Z INFO ConfigurationStore] HasCredentials()
+[2024-06-21 15:41:17Z INFO ConfigurationStore] stored True
+[2024-06-21 15:41:17Z INFO CredentialManager] GetCredentialProvider
+[2024-06-21 15:41:17Z INFO CredentialManager] Creating type OAuth
+[2024-06-21 15:41:17Z INFO CredentialManager] Creating credential type: OAuth
+[2024-06-21 15:41:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams
+[2024-06-21 15:41:17Z INFO RunnerServer] EstablishVssConnection
+[2024-06-21 15:41:17Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-06-21 15:41:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-21 15:41:17Z INFO RunnerServer] EstablishVssConnection
+[2024-06-21 15:41:17Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-21 15:41:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-21 15:41:17Z INFO RunnerServer] EstablishVssConnection
+[2024-06-21 15:41:17Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-06-21 15:41:17Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-06-21 15:41:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-21 15:41:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-21 15:41:18Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-06-21 15:41:19Z INFO RSAFileKeyManager] Loading RSA key parameters from file /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams
+[2024-06-21 15:41:19Z INFO RSAFileKeyManager] Loading RSA key parameters from file /mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/.credentials_rsaparams
+[2024-06-21 15:41:19Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-06-21 15:41:19Z INFO CommandSettings] Arg 'work': ''
+[2024-06-21 15:41:19Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-06-21 15:41:19Z INFO PromptManager] ReadValue
+[2024-06-21 15:41:19Z INFO Terminal] WRITE: Enter name of work folder: 
+[2024-06-21 15:41:19Z INFO Terminal] WRITE: [press Enter for _work] 
+[2024-06-21 15:41:19Z INFO Terminal] READ LINE
+[2024-06-21 15:41:41Z INFO Terminal] Read value: ''
+[2024-06-21 15:41:41Z INFO PromptManager] Falling back to the default: '_work'
+[2024-06-21 15:41:41Z INFO ConfigurationStore] Saving runner settings.
+[2024-06-21 15:41:41Z INFO ConfigurationStore] Settings Saved.
+[2024-06-21 15:41:41Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:41:41Z INFO Terminal] WRITE LINE: 
+[2024-06-21 15:41:41Z INFO SystemDControlManager] Service name 'actions.runner.hoess345-spw4-ue3.Yannick.service' display name 'GitHub Actions Runner (hoess345-spw4-ue3.Yannick)' will be used for service configuration.
+[2024-06-21 15:41:41Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:41:41Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:41:41Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:41:41Z INFO HostContext] Well known directory 'Bin': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/bin'
+[2024-06-21 15:41:41Z INFO HostContext] Well known directory 'Root': '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:41:41Z INFO UnixUtil] Which2: 'chmod'
+[2024-06-21 15:41:41Z INFO UnixUtil] Location: '/usr/bin/chmod'
+[2024-06-21 15:41:41Z INFO UnixUtil] Running /usr/bin/chmod 755 "/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/svc.sh"
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper] Starting process:
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/chmod'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Arguments: '755 "/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner/svc.sh"'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Working directory: '/mnt/c/Users/yanni/Dokumente/FH/4.Sem/SPW/ue3/spw4-ue3/exercise3-hoess345/actions-runner'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 1985.
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper] Process started with process id 1985, waiting for process exit.
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-06-21 15:41:41Z INFO ProcessInvokerWrapper] Finished process 1985 with exit code 0, and elapsed time 00:00:00.0039375.
+[2024-06-21 15:41:41Z INFO Listener] Runner execution has finished with return code 0
